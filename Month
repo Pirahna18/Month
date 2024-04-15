@@ -1,0 +1,19 @@
+#Jenise Rawls
+#jenise.rawls72@myhunter.cuny.edu
+#April 15, 2024
+
+
+def main():
+    day, month, year = eval(input("Please enter day, month, and year numbers: "))
+
+    date1 = str(month)+"/"+str(day)+"/"+str(year)
+
+    months = ["January", "February", "March", "April",
+              "May", "June", "July", "August",
+              "September", "October", "November", "December"]
+    monthStr = months[-1]
+    date2 = monthStr+" " + str(day) + ","  + str(year)
+
+    print("The date is", date1, "or", date2+".")
+
+main()
